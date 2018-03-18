@@ -1,0 +1,25 @@
+{
+  "name": "spike-cli",
+  "version": "1.0.0",
+  "description": "Spike command line interface",
+  "main": "./cli/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Spike",
+    "CLI"
+  ],
+  "author": "JSQL",
+  "license": "MIT",
+  "bin": {
+    "spike": "./cli/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.8.1"
+  }
+}
